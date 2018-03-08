@@ -22,7 +22,7 @@
     "marked": "^0.3.6",
     "metalsmith": "^2.3.0",
     "metalsmith-autotoc": "git://github.com/spark/metalsmith-autotoc",
-    "metalsmith-clean-css": "^5.0.1",
+    "metalsmith-clean-css": "^6.0.0",
     "metalsmith-collections": "git://github.com/spark/metalsmith-collections#dynamic-collections",
     "metalsmith-copy": "git://github.com/spark/metalsmith-copy#improved-ci",
     "metalsmith-filemetadata": "1.0.0",
@@ -42,7 +42,7 @@
     "metalsmith-register-partials": "git://github.com/spark/metalsmith-register-partials",
     "metalsmith-serve": "0.0.7",
     "metalsmith-watch": "^1.0.1",
-    "mocha": "^3.2.0",
+    "mocha": "^5.0.3",
     "prettify": "^0.1.7"
   },
   "devDependencies": {
