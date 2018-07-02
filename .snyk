@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - metalsmith-less > lodash:
+        patched: '2018-07-02T21:17:46.916Z'
+    - metalsmith-move-up > lodash:
+        patched: '2018-07-02T21:17:46.916Z'
+    - metalsmith-copy > lodash:
+        patched: '2018-07-02T21:17:46.916Z'
+    - metalsmith-lunr > cheerio > lodash:
+        patched: '2018-07-02T21:17:46.916Z'
