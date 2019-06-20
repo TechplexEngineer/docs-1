@@ -1,0 +1,29 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - metalsmith-watch > tiny-lr > debug:
+        patched: '2019-06-20T23:40:25.699Z'
+  'npm:hoek:20180212':
+    - metalsmith-less > joi > hoek:
+        patched: '2019-06-20T23:40:25.699Z'
+    - metalsmith-less > joi > topo > hoek:
+        patched: '2019-06-20T23:40:25.699Z'
+    - metalsmith-less > less > request > hawk > hoek:
+        patched: '2019-06-20T23:40:25.699Z'
+    - metalsmith-less > less > request > hawk > boom > hoek:
+        patched: '2019-06-20T23:40:25.699Z'
+    - metalsmith-less > less > request > hawk > sntp > hoek:
+        patched: '2019-06-20T23:40:25.699Z'
+    - metalsmith-less > less > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-20T23:40:25.699Z'
+  'npm:lodash:20180130':
+    - metalsmith-less > lodash:
+        patched: '2019-06-20T23:40:25.699Z'
+    - metalsmith-move-up > lodash:
+        patched: '2019-06-20T23:40:25.699Z'
+  'npm:ms:20151024':
+    - metalsmith-watch > tiny-lr > debug > ms:
+        patched: '2019-06-20T23:40:25.699Z'
