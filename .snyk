@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-04-30T23:40:30.255Z'
+    - apidoc > lodash:
+        patched: '2020-04-30T23:40:30.255Z'
+    - apidoc > apidoc-core > lodash:
+        patched: '2020-04-30T23:40:30.255Z'
+    - metalsmith-clean-css > async > lodash:
+        patched: '2020-04-30T23:40:30.255Z'
+    - apidoc > winston > async > lodash:
+        patched: '2020-04-30T23:40:30.255Z'
+    - metalsmith-watch > gaze > globule > lodash:
+        patched: '2020-04-30T23:40:30.255Z'
